@@ -1,0 +1,49 @@
+h1 {
+    color : white;
+    background-color: none;
+    border : 5px solid white;
+    margin : 0; padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+    
+a {
+    font-weight: bold;
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+
+.read{color:gray;}
+#now{color:orange;}
+
+#layout {display: grid, grid-template-columns:auto auto;}
+
+@media(max-width: 1000px) {
+    #menu {
+        display:grid;
+        grid-template-columns: auto auto auto auto;
+        grid-column: 1/5;
+    }
+
+}
+
+a:hover{
+    background-color: rgb(191, 191, 191);
+}
+
+body {
+    background-image: url(img_ewha.jpg);
+    background-size: cover;
+    display: block;
+    color: white;
+}
+
+#text{
+    background-color: rgba(76, 76, 76, 0.7);
+    margin : 5px;
+
+}
